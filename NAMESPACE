@@ -3,4 +3,7 @@
 export("%>%")
 export(read_tag)
 export(snap_tag)
+import(rlang)
+importFrom(glue,glue)
+importFrom(lifecycle,deprecated)
 importFrom(magrittr,"%>%")

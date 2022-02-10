@@ -4,10 +4,20 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Daniel", "Estevez", , "daeb@natur.gl", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5852-8145"))
-Description: GINR.psat allows to easily visualize and analize data from archival tags. The package was created with WILDLIFE computers Inc. users in mind at the Greenland Institute of Natural Resources.
+Description: GINR.psat allows to easily visualize and analize data from
+    archival tags. The package was created with WILDLIFE computers Inc.
+    users in mind at the Greenland Institute of Natural Resources.
 License: MIT + file LICENSE
-Encoding: UTF-8
 Imports:
-    magrittr
+    beepr,
+    cli,
+    dplyr,
+    glue,
+    lifecycle,
+    magrittr,
+    readr,
+    rlang,
+    withr
+Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
